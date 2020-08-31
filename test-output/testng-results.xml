@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching android driver...]]>
+    </line>
+    <line>
+      <![CDATA[Connection established successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[User login validation passed]]>
+    </line>
+    <line>
+      <![CDATA[Changed the country preference]]>
+    </line>
+    <line>
+      <![CDATA[Handling screen orientation: Current Screen Orientation is PORTRAIT]]>
+    </line>
+    <line>
+      <![CDATA[Screen orientation changed to : LANDSCAPE]]>
+    </line>
+    <line>
+      <![CDATA[Searching for Product : 65-inch TV]]>
+    </line>
+    <line>
+      <![CDATA[Handling screen orientation: Current Screen Orientation is LANDSCAPE]]>
+    </line>
+    <line>
+      <![CDATA[Screen orientation changed to : PORTRAIT]]>
+    </line>
+    <line>
+      <![CDATA[Performing swipe]]>
+    </line>
+    <line>
+      <![CDATA[size :(1440, 2392)]]>
+    </line>
+    <line>
+      <![CDATA[Selected Product Details : 
+ Name : Visit the TCL Store
+ Description : TCL 163.9 cm (65 inches) 4K Ultra HD Certified Android Smart QLED TV 65C715 (Metallic Black) (2020 Model) | with Voice Control
+ Price : rupees 79,990]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Cart Description : TCL 163.9 cm (65 inches) 4K Ultra HD Certified Android Smart QLE...]]>
+    </line>
+    <line>
+      <![CDATA[Cart Price :  79,990.00]]>
+    </line>
+    <line>
+      <![CDATA[Comparing Product details with the cart Matches]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="210819" started-at="2020-08-31T06:01:45Z" finished-at="2020-08-31T06:05:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="210819" started-at="2020-08-31T06:01:45Z" finished-at="2020-08-31T06:05:16Z">
+      <class name="runner.AmazonAppTest">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:runner.AmazonAppTest@7f560810]" name="killAllNodes" is-config="true" duration-ms="3088" started-at="2020-08-31T06:01:45Z" finished-at="2020-08-31T06:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:runner.AmazonAppTest@7f560810]" name="purchaseProduct" duration-ms="204146" started-at="2020-08-31T06:01:48Z" finished-at="2020-08-31T06:05:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching android driver...]]>
+            </line>
+            <line>
+              <![CDATA[Connection established successfully]]>
+            </line>
+            <line>
+              <![CDATA[Logged in to the application]]>
+            </line>
+            <line>
+              <![CDATA[User login validation passed]]>
+            </line>
+            <line>
+              <![CDATA[Changed the country preference]]>
+            </line>
+            <line>
+              <![CDATA[Handling screen orientation: Current Screen Orientation is PORTRAIT]]>
+            </line>
+            <line>
+              <![CDATA[Screen orientation changed to : LANDSCAPE]]>
+            </line>
+            <line>
+              <![CDATA[Searching for Product : 65-inch TV]]>
+            </line>
+            <line>
+              <![CDATA[Handling screen orientation: Current Screen Orientation is LANDSCAPE]]>
+            </line>
+            <line>
+              <![CDATA[Screen orientation changed to : PORTRAIT]]>
+            </line>
+            <line>
+              <![CDATA[Performing swipe]]>
+            </line>
+            <line>
+              <![CDATA[size :(1440, 2392)]]>
+            </line>
+            <line>
+              <![CDATA[Selected Product Details : 
+ Name : Visit the TCL Store
+ Description : TCL 163.9 cm (65 inches) 4K Ultra HD Certified Android Smart QLED TV 65C715 (Metallic Black) (2020 Model) | with Voice Control
+ Price : rupees 79,990]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Cart Description : TCL 163.9 cm (65 inches) 4K Ultra HD Certified Android Smart QLE...]]>
+            </line>
+            <line>
+              <![CDATA[Cart Price :  79,990.00]]>
+            </line>
+            <line>
+              <![CDATA[Comparing Product details with the cart Matches]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="End()[pri:0, instance:runner.AmazonAppTest@7f560810]" name="End" is-config="true" duration-ms="2228" started-at="2020-08-31T06:05:13Z" finished-at="2020-08-31T06:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- runner.AmazonAppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
